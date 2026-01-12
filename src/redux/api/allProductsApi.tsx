@@ -9,7 +9,7 @@ export const allProductsApi = createApi({
   }),
   endpoints: (build) => ({
     getCar: build.query({
-      query: () => `/cars`,
+      query: () => `/Cars`,
     }),
   }),
 });
