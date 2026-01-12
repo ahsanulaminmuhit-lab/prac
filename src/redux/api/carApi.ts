@@ -11,7 +11,7 @@ export const carApi = createApi({
   tagTypes: ["StoreCarData"],
   endpoints: (builder) => ({
     getAllCar: builder.query({
-      query: () => `/cars`,
+      query: () => `/Cars`,
       providesTags: ["StoreCarData"],
     }),
   }),
